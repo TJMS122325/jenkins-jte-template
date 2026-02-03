@@ -1,1 +1,0 @@
-# jenkins-jte-template
