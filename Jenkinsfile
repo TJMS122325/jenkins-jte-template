@@ -1,11 +1,11 @@
-// Simple JTE template: delegates to `simple` library
+// Simple JTE template: delegates to `javaProject` library
 pipeline {
   agent any
   stages {
-    stage('Run Simple Build') {
+    stage('Run Java Project Pipeline') {
       steps {
         script {
-          simple.build()
+          javaProject.build()
         }
       }
     }
